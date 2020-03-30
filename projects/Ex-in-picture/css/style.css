@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  min-width: 250px;
+  border: 5px solid black;
+  background-color: cornflowerblue;
+}
+
+.btn {
+  display: none;
+  border: 3px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(96, 209, 105);
+  width: 100px;
+}
+
+.boxMess {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 35px;
+  margin: auto;
+  border: 5px solid black;
+  background-color: turquoise;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.picBox {
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+.picBox img {
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.answer {
+  background-color: lightsalmon;
+  border: 4px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  width: 80%;
+  max-width: 450px;
+}

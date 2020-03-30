@@ -1,0 +1,22 @@
+* {
+}
+
+.board tr {
+  width: 25px;
+}
+.board td {
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: forestGreen;
+  color: black;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}

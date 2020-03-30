@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.cell img {
+  width: 25px;
+  height: auto;
+}
+.floor {
+  background-color: gray;
+}
+.wall {
+  background-color: brown;
+}
+.panel-balls {
+  margin-bottom: 5px;
+}
+.panel-balls p {
+  font-size: x-large;
+  display: inline;
+  margin-right: 4px;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  top: 275px;
+  left: 175px;
+  margin: auto;
+  border: 2px solid rgb(29, 95, 196);
+  background-color: rgb(30, 127, 238);
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+}
+.message p {
+  margin: 10px auto;
+  width: 150px;
+  font-size: xx-large;
+}
+.message button {
+  display: block;
+  border: 2px solid rgb(68, 117, 158);
+  background-color: rgb(219, 202, 49);
+  font-size: large;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+}

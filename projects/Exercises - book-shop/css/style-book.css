@@ -1,0 +1,199 @@
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+table {
+  min-width: 700px;
+}
+table thead {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+table tbody {
+  font-size: x-large;
+}
+table tbody button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+.headTable:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-new-book {
+  border: none;
+  background: none;
+  margin: 0 0 5px 10px;
+  color: cornflowerblue;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-new-book:hover {
+  text-decoration: underline;
+}
+
+.modal-create-book {
+  display: block;
+  width: 545px;
+  height: 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.modal-create-book-show {
+  height: 140px;
+  padding: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  transition: height 1s;
+  height: 130px;
+}
+.modal-create-book label {
+  font-size: 25px;
+  margin: 0px 3px 0px 15px;
+}
+.modal-create-book input {
+  width: 150px;
+  height: 20px;
+  margin: 0px 0px;
+  font-size: large;
+}
+.modal-create-book input[type="file"] {
+  width: auto;
+  height: 25px;
+  margin: 10px 3px 10px 15px;
+}
+.modal-create-book input[type="submit"] {
+  width: 130px;
+  height: 30px;
+  padding: 10px 10px 29px 10px;
+  margin: 10px 200px;
+  background-color: rgb(60, 160, 103);
+  border: 3px solid rgb(64, 163, 107);
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container {
+  margin: auto;
+  width: 710px;
+  position: relative;
+}
+.container h1 {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.modal-ReadBook {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  background-color: snow;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.modal-ReadBook .pic-book {
+  width: 200px;
+  min-height: 200px;
+  border: 4px double black;
+  padding: 5px;
+  background-color: cornsilk;
+}
+.modal-ReadBook .title {
+  text-align: center;
+}
+.panel-rate {
+  margin: 0px;
+  padding: 0;
+}
+.panel-rate h2 {
+  text-decoration: underline;
+  font-size: x-large;
+  text-align: center;
+  margin: 0 0 10px;
+}
+.btns-rate-panel {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+}
+.box-rate {
+  width: 70px;
+  height: 27px;
+  background-color: silver;
+  margin: 0;
+  text-align: center;
+  padding: 7px 0;
+}
+.btns-rate-panel .btn {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box-price {
+  position: relative;
+  right: 50px;
+  margin: 3px 0 10px;
+}
+.box-price span {
+  font-size: 23px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.modal-close-btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  background-color: firebrick;
+  cursor: pointer;
+}
+
+.panel-buttons-pages {
+  display: flex;
+  margin-top: 5px;
+}
+.btn-page {
+  display: inline-block;
+  margin: 1px;
+  width: 25px;
+  height: 25px;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-page:disabled {
+  cursor: not-allowed;
+}
+.btn-curr-page {
+  border: 2px solid black;
+  color: white;
+  padding: 3px;
+}
