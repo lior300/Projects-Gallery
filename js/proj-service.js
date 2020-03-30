@@ -27,7 +27,7 @@ function createProjects() {
         'Find the next number',
         'A game where you have to find all the numbers in the fastest time',
         ['Games'],
-        'projects/Ex-in-picture/index.html'))
+        'projects/Ex-touch-nums/index.html'))
 
     //Add Project4
     projs.push(createProject(
