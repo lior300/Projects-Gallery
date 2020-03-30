@@ -54,3 +54,15 @@ function getProjectModalHTML(project) {
     <a class="btn btn-outline-primary" href="${project.url}" target="_blank">Project Link</a>
     `
 }
+
+function onSendMessage() {
+  var email = $('.email-input').val()
+
+  console.log(email);
+  var subject = $('.subject-input').val()
+  console.log(subject);
+  var message = $('.message-input').val()
+  console.log(message);
+
+  sendMessage(email, subject, message)
+}

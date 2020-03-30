@@ -69,3 +69,10 @@ function GetgProjs() {
 function getProjectById(idProject) {
     return gProjs.find(project => idProject === project.id)
 }
+
+function sendMessage(email, subject, message) {
+    var myMail = 'lior9631@gmail.com'
+    var mailURL =
+        `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${message}`
+    window.open(mailURL)
+}
