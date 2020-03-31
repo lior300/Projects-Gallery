@@ -73,6 +73,6 @@ function getProjectById(idProject) {
 function sendMessage(email, subject, message) {
     var myMail = 'lior9631@gmail.com'
     var mailURL =
-        `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${message}`
+        `https://mail.google.com/mail/?view=cm&fs=1&to=${myMail}&su=${subject}&body=${message}`
     window.open(mailURL)
 }

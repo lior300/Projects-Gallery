@@ -57,12 +57,8 @@ function getProjectModalHTML(project) {
 
 function onSendMessage() {
   var email = $('.email-input').val()
-
-  console.log(email);
   var subject = $('.subject-input').val()
-  console.log(subject);
   var message = $('.message-input').val()
-  console.log(message);
 
   sendMessage(email, subject, message)
 }
